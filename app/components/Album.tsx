@@ -1,6 +1,6 @@
-import Image from "next/image";
+import React from "react";
 
-export default function Home() {
+const Album = () => {
   return (
     <section>
       <div className="hero-img"></div>
@@ -8,11 +8,13 @@ export default function Home() {
       <div className="emblem-container">
         <div className="emblem text"></div>
       </div>
-      <h1 className="text" value={6}>
+      <h1 className="text" value="6">
         <span className="album-num"></span>
         <span className="album-title"></span>
         <span>Taylor Swift</span>
       </h1>
     </section>
   );
-}
+};
+
+export default Album;
