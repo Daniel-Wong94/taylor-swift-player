@@ -2,10 +2,11 @@ import React, { useEffect } from "react";
 import albums from "../albums.json";
 
 type ButtonProp = {
+  album: number;
   setAlbum: React.Dispatch<React.SetStateAction<number>>;
 };
 
-const Buttons: React.FC<ButtonProp> = ({ setAlbum }) => {
+const Buttons: React.FC<ButtonProp> = ({ album, setAlbum }) => {
   const handlePrevClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     setAlbum((prev) => (prev - 1 > 0 ? prev - 1 : 0));
   };
@@ -17,6 +18,7 @@ const Buttons: React.FC<ButtonProp> = ({ setAlbum }) => {
     <div className="pt-2 px-5vw pb-6 w-full flex justify-between items-center z-10">
       {/* scroll-left nav-arrow */}
       <button
+        disabled={album === 0}
         onClick={handlePrevClick}
         className="text-lg flex justify-center items-center h-14 bg-none text-color-light opacity-30 font-medium lowercase transition-all hover:w-8 hover:h-8"
       >
@@ -29,6 +31,7 @@ const Buttons: React.FC<ButtonProp> = ({ setAlbum }) => {
       </button>
       {/* scroll-right nav-arrow */}
       <button
+        disabled={album === albums.length - 1}
         onClick={handleNextClick}
         className="text-lg flex justify-center items-center h-14 bg-none text-color-light opacity-30 font-medium lowercase transition-all"
       >

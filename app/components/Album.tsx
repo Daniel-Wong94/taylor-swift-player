@@ -1,4 +1,5 @@
 import React from "react";
+import { createEmblemSpans } from "../utils/createEmblemSpans";
 
 type AlbumProp = {
   album: {
@@ -20,6 +21,8 @@ const Album: React.FC<AlbumProp> = ({ album }) => {
     backgroundImage: `url(${album["imageUrl"]})`,
   };
 
+  const spans = createEmblemSpans(album["emblem"]);
+
   return (
     <section className="h-full w-screen flex flex-col justify-center items-center relative my-10">
       {/* .hero-img */}
@@ -31,7 +34,25 @@ const Album: React.FC<AlbumProp> = ({ album }) => {
       {/* .emblem-container */}
       <div className="h-72 w-72 absolute z-[2] " style={emblemAnimation}>
         {/* .emblem .text */}
-        <div className="text-2xl text-color-light lowercase flex justify-center items-center origin-center animate-spin h-full w-full"></div>
+        <div className="text-2xl text-color-light lowercase flex justify-center items-center origin-center animate-spin h-full w-full">
+          {spans.map(({ char, rotation, delimiter }, idx) => {
+            const rotationStyle: React.CSSProperties = {
+              transform: rotation,
+            };
+
+            return (
+              <span
+                key={idx}
+                style={rotationStyle}
+                className={`${
+                  char === delimiter ? `text-${album["accentColor"]}` : ""
+                }`}
+              >
+                {char}
+              </span>
+            );
+          })}
+        </div>
       </div>
       {/* .text */}
       <h1
@@ -41,7 +62,7 @@ const Album: React.FC<AlbumProp> = ({ album }) => {
         {/* .album-num */}
         <span className="w-full absolute left-0 -top-4 text-3xl font-medium leading-none drop-shadow-lg"></span>
         {/* .album-title */}
-        <span className="w-full text-left relative"></span>
+        <span className="text-left relative">{album["albumName"]}</span>
         <span className="text-right">Taylor Swift</span>
       </h1>
     </section>

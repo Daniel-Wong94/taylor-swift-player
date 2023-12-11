@@ -23,7 +23,7 @@ export default function Home() {
       <Header />
       <Album album={albums[album]} />
       <SpotifyWidget albumURL={albums[album]["spotifyUrl"]} />
-      <Buttons setAlbum={setAlbum} />
+      <Buttons album={album} setAlbum={setAlbum} />
     </main>
   );
 }
