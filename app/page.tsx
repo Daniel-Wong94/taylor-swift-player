@@ -1,18 +1,14 @@
 import Image from "next/image";
+import Album from "./components/Album";
+import SpotifyWidget from "./components/SpotifyWidget";
+import Buttons from "./components/Buttons";
 
 export default function Home() {
   return (
-    <section>
-      <div className="hero-img"></div>
-
-      <div className="emblem-container">
-        <div className="emblem text"></div>
-      </div>
-      <h1 className="text" value={6}>
-        <span className="album-num"></span>
-        <span className="album-title"></span>
-        <span>Taylor Swift</span>
-      </h1>
-    </section>
+    <>
+      <Album />
+      <SpotifyWidget />
+      <Buttons />
+    </>
   );
 }
