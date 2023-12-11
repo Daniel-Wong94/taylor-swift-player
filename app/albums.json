@@ -1,0 +1,83 @@
+[
+  {
+    "albumName": "Midnights",
+    "emblem": "Meet me at midnight",
+    "bgColor": ["#32193C", "#0A121D"],
+    "accentColor": "#804B4A",
+    "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2022%2F10%2F20%2FMidnights-Taylor-Swift-01-101922.jpg",
+    "spotifyUrl": "https://open.spotify.com/embed/album/1fnJ7k0bllNfL1kVdNVW1A?utm_source=generator"
+  },
+  {
+    "albumName": "Evermore",
+    "emblem": "Life was a willow",
+    "bgColor": ["#66493D", "#32130F"],
+    "accentColor": "#B4653C",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27390fd9741e1838115cd90b3b6",
+    "spotifyUrl": "https://open.spotify.com/embed/album/6AORtDjduMM3bupSWzbTSG?utm_source=generator"
+  },
+  {
+    "albumName": "Folklore",
+    "emblem": "lost in the memory",
+    "bgColor": ["#535353", "#181818"],
+    "accentColor": "#898989",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+    "spotifyUrl": "https://open.spotify.com/embed/album/1pzvBxYgT6OVwJLtHkrdQK?utm_source=generator"
+  },
+  {
+    "albumName": "Lover",
+    "emblem": "I've been the archer'",
+    "bgColor": ["#BD8B90", "#5F3E59"],
+    "accentColor": "#DAADB8",
+    "imageUrl": "https://lastfm.freetls.fastly.net/i/u/770x0/8f38633dcc27d6a20f8880c5774af9d5.jpg",
+    "spotifyUrl": "https://open.spotify.com/embed/album/1NAmidJlEaVgA3MpcPFYGq?utm_source=generator"
+  },
+  {
+    "albumName": "Reputation",
+    "emblem": "Let the games begin",
+    "bgColor": ["#242424", "#070707"],
+    "accentColor": "#505050",
+    "imageUrl": "https://i.pinimg.com/originals/cc/f4/56/ccf4564928c46baca09fcc0738ca57f2.jpg",
+    "spotifyUrl": "https://open.spotify.com/embed/album/6DEjYFkNZh67HP7R9PSZvv?utm_source=generator"
+  },
+  {
+    "albumName": "1989",
+    "emblem": "Love's a game wanna play",
+    "bgColor": ["#b4b5ba", "#628eb3"],
+    "accentColor": "#c56043",
+    "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/10b9e57/2147483647/strip/true/crop/4887x6058+0+0/resize/1200x1488!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F10%2F7c%2F4a0ecab74a07b9cb1bf15a94a49b%2Ftaylor-swift2.jpg",
+    "spotifyUrl": "https://open.spotify.com/embed/album/1o59UpKw81iHR0HPiSkJR0?utm_source=generator"
+  },
+  {
+    "albumName": "Red",
+    "emblem": "loving him was red",
+    "bgColor": ["#660E11", "#210402"],
+    "accentColor": "#9E4E23",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
+    "spotifyUrl": "https://open.spotify.com/embed/album/6kZ42qRrzov54LcAk4onW9?utm_source=generator"
+  },
+  {
+    "albumName": "Speak Now",
+    "emblem": "remember this moment",
+    "bgColor": ["#481848", "#281533"],
+    "accentColor": "#AF7863",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b2730b04da4f224b51ff86e0a481",
+    "spotifyUrl": "https://open.spotify.com/embed/album/5AEDGbliTTfjOB8TSm1sxt?utm_source=generator"
+  },
+  {
+    "albumName": "Fearless",
+    "emblem": "baby just say yes",
+    "bgColor": ["#a8834a", "#644323"],
+    "accentColor": "#CEA766",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273a48964b5d9a3d6968ae3e0de",
+    "spotifyUrl": "https://open.spotify.com/embed/album/4hDok0OAJd57SGIT8xuWJH?utm_source=generator"
+  },
+
+  {
+    "albumName": "Self-Titled",
+    "emblem": "wishing on a wishing star",
+    "bgColor": ["#6F6F4C", "#34351E"],
+    "accentColor": "#B2C15E",
+    "imageUrl": "https://i.pinimg.com/originals/5a/62/10/5a6210fa476de13afb5a6e07d5ae7dd2.jpg",
+    "spotifyUrl": "https://open.spotify.com/embed/album/7mzrIsaAjnXihW3InKjlC3?utm_source=generator"
+  }
+]

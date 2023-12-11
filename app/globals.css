@@ -8,12 +8,32 @@
   box-sizing: border-box;
 }
 
-:root {
-  --color-light: #ebeae6;
-  --album-size: 580px;
+@layer base {
+  :root {
+    --color-light: #ebeae6;
+    --album-width: 580px;
+  }
 }
 
-html,
+@layer utilities {
+  .text-color-light {
+    color: var(--color-light);
+  }
+
+  .album-width {
+    width: 580px;
+  }
+
+  .bg-light {
+    background: var(--color-light);
+  }
+
+  .border-light {
+    border-color: var(--color-light);
+  }
+}
+
+/* html,
 body {
   overflow-x: hidden;
   position: relative;
@@ -24,4 +44,4 @@ body {
   justify-content: space-around;
   width: 100vw;
   height: 100vh;
-}
+} */

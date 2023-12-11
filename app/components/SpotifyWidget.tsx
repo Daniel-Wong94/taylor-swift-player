@@ -1,12 +1,18 @@
 import React from "react";
 
-const SpotifyWidget = () => {
+type SpotifyWidgetProp = {
+  albumURL: string;
+};
+
+const SpotifyWidget: React.FC<SpotifyWidgetProp> = ({ albumURL }) => {
   return (
-    <div>
+    // .spotify-widget
+    <div className="album-width z-[100] mb-2">
       <iframe
-        src="https://open.spotify.com/embed/album/3lS1y25WAhcqJDATJK70Mq?utm_source=generator"
+        src={albumURL}
         width="100%"
         height="80"
+        className="rounded-xl"
         // frameBorder="0"
         // allowFullScreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
